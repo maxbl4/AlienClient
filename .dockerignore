@@ -1,0 +1,9 @@
+.idea
+.vs
+_build
+dbinit
+tagprogram
+tagstat
+TagStatWeb
+**/bin
+**/obj

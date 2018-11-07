@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\src\AlienClient" t="IncludeFlat">
+      <e p="Alien.sln" t="IncludeFlat" />
+      <e p="AlienClient" t="IncludeRecursive">
+        <e p="AlienClient.csproj" t="IncludeRecursive" />
+        <e p="AlienReaderDiscovery.cs" t="Include" />
+        <e p="AlienReaderProtocol.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Buffers" t="Include">
+          <e p="MessageParser.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="AcqG2Mode.cs" t="Include" />
+          <e p="AcqG2SL.cs" t="Include" />
+          <e p="AcquireMode.cs" t="Include" />
+          <e p="AutoAction.cs" t="Include" />
+          <e p="AutoModeType.cs" t="Include" />
+          <e p="IncrementDataMode.cs" t="Include" />
+          <e p="ListFormat.cs" t="Include" />
+          <e p="ReaderFunction.cs" t="Include" />
+          <e p="RFModulation.cs" t="Include" />
+          <e p="TagStreamServer.cs" t="Include" />
+        </e>
+        <e p="Ext" t="Include">
+          <e p="AlienValueConverter.cs" t="Include" />
+          <e p="DateTimeExt.cs" t="Include" />
+          <e p="DictionaryExt.cs" t="Include" />
+          <e p="EnumExt.cs" t="Include" />
+          <e p="IPAddressExt.cs" t="Include" />
+          <e p="LoggerIndexer.cs" t="Include" />
+          <e p="SemaphoreExt.cs" t="Include" />
+          <e p="SocketExt.cs" t="Include" />
+          <e p="Timeout.cs" t="Include" />
+          <e p="XmlExt.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="AlienReaderApi.cs" t="Include" />
+          <e p="AlienReaderApiImpl.cs" t="Include" />
+          <e p="IAlienReaderApi.cs" t="Include" />
+        </e>
+        <e p="Net" t="Include">
+          <e p="ByteStream.cs" t="Include" />
+          <e p="ConnectionLostException.cs" t="Include" />
+          <e p="DuplexProtocol.cs" t="Include" />
+          <e p="EndpointLookup.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="AlienClient.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ReaderSimulator" t="Include">
+          <e p="ProtocolMessages.cs" t="Include" />
+          <e p="SimulatorListener.cs" t="Include" />
+          <e p="SimulatorLogic.cs" t="Include" />
+          <e p="SimulatorLogicState.cs" t="Include" />
+          <e p="SimulatorProtocol.cs" t="Include" />
+          <e p="TagStreamLogic.cs" t="Include" />
+          <e p="TagStreamSimulatorProtocol.cs" t="Include" />
+        </e>
+        <e p="ReconnectingAlienReaderProtocol.cs" t="Include" />
+        <e p="TagStream" t="Include">
+          <e p="AlienTagStreamListener.cs" t="Include" />
+          <e p="AlienTagStreamProtocol.cs" t="Include" />
+          <e p="ReaderInfo.cs" t="Include" />
+          <e p="Tag.cs" t="Include" />
+          <e p="TagPoller.cs" t="Include" />
+          <e p="TagStreamParser.cs" t="Include" />
+        </e>
+      </e>
+      <e p="AlienClient.Tests" t="IncludeRecursive">
+        <e p="AlienClient.Tests.csproj" t="IncludeRecursive" />
+        <e p="AlienReaderFactsWithLogin.cs" t="Include" />
+        <e p="AlienReaderProtocolTests.cs" t="Include" />
+        <e p="AlienValueConverterTests.cs" t="Include" />
+        <e p="AssemblyAttributes.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ByteStreamTests.cs" t="Include" />
+        <e p="Hardware" t="Include">
+          <e p="HardwareTests.cs" t="Include" />
+          <e p="ReconnectionTests.cs" t="Include" />
+          <e p="TagStreamListenerTests.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="Timing.cs" t="Include" />
+        </e>
+        <e p="nlog.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="AlienClient.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="AlienClient.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TagStreamParserTests.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Max\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Max\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Max\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Max\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Max\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Alien.1667058106.00" t="ExcludeRecursive" />
+  </component>
+</project>
